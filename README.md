@@ -10,7 +10,7 @@ The only mandatory detail is that the package.json file must include a script to
 
 ## Task Expectations
 
-You should take a copy of this repo, implement the requirements described in the prototype, and push them to GitHub for discussion in the scheduled technical interview. You're welcome to use a private repository, as long as it is visible to @doc-E-brown, @rickfoxcroft, @jayvdb, @ray-kw.
+You should take a copy of this repo, implement the requirements described in the prototype, and push them to GitHub for discussion in the scheduled technical interview. You're welcome to use a private repository, as long as it is visible to @doc-E-brown, @rickfoxcroft, @jayvdb, @ray-kw, @boods & @ronaldcurtis.
 
 You will be given the email address of a member of the team, and should email this person with a link to your solution at least 24 hours before the scheduled technical interview. You're also encouraged to email them with questions at any time while working on this task.
 
