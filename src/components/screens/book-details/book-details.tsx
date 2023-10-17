@@ -44,7 +44,7 @@ export function BookDetails({ books }: BookDetailsProps) {
 
       <div>
         <SmallText bold className={styles["summary-title"]}>
-          Publisher's Summary
+          Publisher&apos;s Summary
         </SmallText>
         <SmallText className={styles["summary"]}>
           {book?.publisherSummary}
