@@ -1,0 +1,18 @@
+.reset-button {
+  display: flex;
+  color: #F7CD98;
+  align-items: center;
+
+  .icon-button {
+    width: 20px;
+    height: 20px;
+    border-radius: 24px;
+    background: linear-gradient(85deg, #EB5A52 1.03%, #F7CD98 101.63%);
+    box-shadow: 0px 10px 10px 0px rgba(0, 0, 0, 0.20); 
+    padding: 4px;
+  }
+
+  .button-text {
+    padding-left: 12px;
+  }
+}

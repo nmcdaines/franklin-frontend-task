@@ -1,0 +1,19 @@
+.wrapper {
+  position: relative;
+  text-align: center; 
+  padding: 10px 0px 8px 0px;
+}
+
+.divider {
+  border-color: white; 
+  position: absolute;
+  width: calc(100% - 4px);
+  top: calc(50% + 2px);
+  margin: 0px 2px;
+}
+
+.title {
+  padding: 0px 16px;
+  background: #EB5A52;
+  position: relative;
+}

@@ -1,0 +1,53 @@
+/* ==============================================================
+ * SORTABLE BUTTON 
+ * ============================================================== */
+
+.button {
+  border-radius: 5px;
+  padding: 8px 7px;
+  display: flex;
+  transform: translateX(0);
+  z-index: 1;
+
+  width: 100%;
+
+  transition: all;
+
+  &.placeholder {
+    opacity: 0.4;
+  }
+
+  .visibility-icon {
+    padding-top: 6px;
+    padding-right: 10px;
+  }
+
+  .content {
+    flex-grow: 1;
+    text-align: left;
+  }
+
+  .delete {
+    padding: 9px 7px 0 10px;
+  }
+
+  &.solid {
+    background: #EF8774;
+    background: linear-gradient(85deg, #EF8774 1.03%, #EF8774 101.63%);
+    color: #F4F4F4;
+    opacity: 50%;
+  }
+
+  &.gradient {
+    background: linear-gradient(85deg, #EB5A52 1.03%, #F7CD98 101.63%);
+    box-shadow: 0px 5px 5px 0px rgba(0, 0, 0, 0.10);
+    color: #FFF;
+  }
+}
+
+.empty {
+  border: 2px dashed white;
+  padding: 8px;
+  border-radius: 8px;
+  opacity: 0.4;
+}
