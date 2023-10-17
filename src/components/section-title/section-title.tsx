@@ -8,7 +8,7 @@ interface SectionTitleProps {
 export function SectionTitle({ title }: SectionTitleProps) {
   return (
     <div className={styles.wrapper}>
-      <hr className={styles.divider} />
+      <hr className={styles.divider} data-testid="hr" />
       <SmallText element="span" className={styles.title}>
         {title}
       </SmallText>
